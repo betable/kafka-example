@@ -14,5 +14,5 @@ var kafka = require('kafka-node')
     )
 
 consumer.on('message', function (message) {
-    console.log('message', message.value)
+    console.log('message', '"' + message.value + '"', 'Offset:', message.offset)
 })
