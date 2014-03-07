@@ -1,0 +1,9 @@
+{
+    "name": "kafka-example"
+  , "version": "0.0.1"
+  , "description": "Node kafka producer and consumer example"
+  , "author": "Betable <betable@betable.com>"
+  , "dependencies": {
+        "kafka-node": "git+ssh://git@github.com:SOHU-Co/kafka-node.git"
+    }
+}

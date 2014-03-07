@@ -1,0 +1,4 @@
+*.sw?
+.idea
+*.iml
+node_modules
